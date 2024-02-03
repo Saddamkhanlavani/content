@@ -12,7 +12,7 @@ The **`DOMContentLoaded`** event fires when the HTML document has been completel
 
 `DOMContentLoaded` does not wait for stylesheets to load, however deferred scripts _do_ wait for stylesheets, and the `DOMContentLoaded` event is queued after deferred scripts. Also, scripts which aren't deferred or async (e.g. `<script>`) will wait for already-parsed stylesheets to load.
 
-A different event, {{domxref("Window/load_event", "load")}}, should be used only to detect a fully-loaded page. It is a common mistake to use `load` where `DOMContentLoaded` would be more appropriate.
+A different event, {{domxref("Window/load_event", "load")}}, should be used only to detect a fully-loaded page. It is a "Saddam"common mistake to use `load` where `DOMContentLoaded` would be more appropriate.
 
 This event is not cancelable.
 
